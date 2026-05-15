@@ -1,0 +1,31 @@
+title: Atelier Lithos
+description: Un voyage entre volcans et lagons — Bracelets de pierres naturelles, faits main.
+baseurl: ""
+url: ""
+permalink: /:title/
+
+exclude:
+  - AGENTS.md
+  - README.md
+  - SECRETS.yml
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+collections:
+  bracelets:
+    output: true
+    title: Bracelets
+  pierres:
+    output: true
+    title: Pierres
+
+defaults:
+  - scope:
+      path: "_bracelets"
+    values:
+      layout: default
+  - scope:
+      path: "_pierres"
+    values:
+      layout: default

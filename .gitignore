@@ -1,0 +1,4 @@
+SECRETS.yml
+Gemfile.lock
+_site/
+vendor/
