@@ -175,6 +175,7 @@ nav {
 
 footer { padding: 2rem 3rem; text-align: center; border-top: 0.5px solid rgba(100,160,210,0.06); background: #0d1117; }
 .footer-logo { font-size: 14px; letter-spacing: 0.15em; color: #3a5a70; margin-bottom: 0.5rem; }
+.footer-updated { font-size: 10px; color: #2a3f4a; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
 .footer-copy { font-size: 11px; color: #2a3f4a; letter-spacing: 0.05em; }
 .footer-copy a { color: #3a5a70; }
 
